@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        service_is73nbr,
-        template_faxqlfg,
+        'service_is73nbr',
+        'template_faxqlfg',
         {
           from_name: form.name,
-          to_name: "Pushkar Gaur",
+          to_name: "Pushkar",
           from_email: form.email,
           to_email: "pushkarsharma2699@gmail.com",
           message: form.message,
         },
-        mHDJIMyd9k5od6dU0tztO
+        'lV5F3onBxFxqPEnCl'
       )
       .then(
         () => {
